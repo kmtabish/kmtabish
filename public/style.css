@@ -16,7 +16,7 @@ background: #7f00ff; /* fallback for old browsers */
 
 .title-sub {
 	font-family: 'Dancing Script', cursive;
-	font-size: 4em;
+	font-size: 5em;
 	top: 5%;
 	text-align: center;
   	transform: translateY(5%);
@@ -29,7 +29,7 @@ background: #7f00ff; /* fallback for old browsers */
 	text-align: center;
 	top: 80%;
 	left: 32%;
-	transform: translateY(80%)
+	transform: translateY(110%)
 }
 
 .title-social {
@@ -37,7 +37,7 @@ background: #7f00ff; /* fallback for old browsers */
 	text-align: center;
 	top: 100%;
 	left: 37%;
-	transform: translateY(300%)
+	transform: translateY(400%)
 }
 
 .font-icon {
@@ -50,7 +50,7 @@ background: #7f00ff; /* fallback for old browsers */
 	text-align: center;
 	top: 90%;
 	left: 37%;
-	transform: translateY(250%)
+	transform: translateY(350%)
 }
 
 .social-icon-link {
