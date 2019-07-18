@@ -1,0 +1,70 @@
+.background {
+background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7f00ff, #e100ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7f00ff, #e100ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.title-main {
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+	font-size: 07em;
+ 	top: 10%;
+ 	left: 25%;
+  	transform: translateY(10%);
+}
+
+.title-sub {
+	font-family: 'Dancing Script', cursive;
+	font-size: 4em;
+	top: 5%;
+	text-align: center;
+  	transform: translateY(5%);
+
+}
+
+.title-bottom {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	text-align: center;
+	top: 80%;
+	left: 32%;
+	transform: translateY(80%)
+}
+
+.title-social {
+	font-size: 2em;
+	text-align: center;
+	top: 100%;
+	left: 37%;
+	transform: translateY(300%)
+}
+
+.font-icon {
+	margin-right: 20px;
+}
+
+.title-conncet {
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	top: 90%;
+	left: 37%;
+	transform: translateY(250%)
+}
+
+.social-icon-link {
+	color: white;
+}
+
+.WebContainer{
+    width: 95%;
+    height: auto;
+    position: relative;
+}
+.articles{
+    width:100%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+    position: absolute;
+} 
