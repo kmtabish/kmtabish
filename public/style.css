@@ -8,15 +8,13 @@ background: #7f00ff; /* fallback for old browsers */
 .title-main {
 	font-family: 'Dosis', sans-serif;
 	text-align: center;
-	font-size: 05em;
-  	transform: translateY(0%);
+	font-size: 5em;
 }
 
 .title-sub {
 	font-family: 'Dancing Script', cursive;
-	font-size: 4em;
+	font-size: 3em;
 	text-align: center;
-  	transform: translateY(25%);
 
 }
 
@@ -24,24 +22,20 @@ background: #7f00ff; /* fallback for old browsers */
 	font-family: 'Dancing Script', cursive;
 	font-size: 2em;
 	text-align: center;
-	transform: translateY(1%)
 }
 
 .title-social {
-	font-size: 4em;
+	font-size: 3em;
 	text-align: center;
-	transform: translateY(80%)
 }
 
-.font-icon {
-	margin-right: 20px;
-}
+
 
 .title-conncet {
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
-	transform: translateY(120%)
+	margin-top: 50px
 }
 
 .social-icon-link {
@@ -49,13 +43,10 @@ background: #7f00ff; /* fallback for old browsers */
 }
 
 .WebContainer{
-    width: 95%;
     height: auto;
-    position: relative;
 }
 .articles{
     width:100%; /*Takes 90% width from WebContainer*/
     height: auto;
     margin: auto;
-    position: absolute;
 } 
