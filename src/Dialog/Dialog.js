@@ -3,14 +3,13 @@ import { useSpring, animated } from "@react-spring/web";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
-import { FaAws } from "react-icons/fa";
 
 function Dialog() {
   const subTitle = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
-    loop: true,
-    delay: 1000,
+    // loop: true,
+    // delay: 1000,
   });
   const title = useSpring({
     from: { opacity: 0 },
@@ -29,7 +28,7 @@ function Dialog() {
           <span className="tags-icon">
             <IoLogoJavascript />
           </span>
-          <span className="tags-text">Javascript</span>
+          <span className="tags-text">JS</span>
         </div>
 
         <div className="tags blue">
@@ -45,13 +44,41 @@ function Dialog() {
           </span>
           <span className="tags-text">NodeJS</span>
         </div>
+      </div>
 
-        <div className="tags orange">
-          <span className="tags-icon">
-            <FaAws />
-          </span>
-          <span className="tags-text">AWS</span>
-        </div>
+      <div className="blogs">My Blogs</div>
+      <div className="tags-group">
+        <a
+          className="blog-link"
+          href="https://medium.com/@kmtabish"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Medium
+        </a>
+
+        <a
+          className="blog-link"
+          href="https://blog.semicolon.xyz/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Hashnode
+        </a>
+
+        <a
+          className="blog-link"
+          href="https://dev.to/kmtabish"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Dev.to
+        </a>
+      </div>
+
+      <div className="blogs">Connect with me</div>
+      <div className="tags-group">
+        <div className="blog-link">hi@kmtabish.com</div>
       </div>
     </div>
   );

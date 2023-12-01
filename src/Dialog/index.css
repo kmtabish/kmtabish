@@ -41,9 +41,12 @@
 
   .title{
     margin-top: 20px;
-    margin: 20px, 20px, 20px, 20px;
     font-size:5vw;
     font-family: 'Press Start 2P', cursive;
+    transition: all .2s ease-in-out;
+  }
+  .title:hover{
+    transform: scale(1.1);
   }
 
   .sub-title{
@@ -51,29 +54,38 @@
     font-size:3.5vw;
     color: #3d405b;
     font-family: 'Press Start 2P', cursive;
-      background: url(https://s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=ffffff);
+      background: url(https://s2.svgbox.net/pen-brushes.svg?ic=brush-5&color=ffffff);
+      transition: all .2s ease-in-out;
+  }
+  .sub-title:hover{
+    transform: scale(1.1);
   }
   
   .tags{
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%; 
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 4%; 
     display: flex;
     align-items: center;
     /* justify-content: center; */
     width: 20vh;
     height: 5vh;
     border-radius: 5px;
+    transition: all .2s ease-in-out;
+  }
+  .tags:hover{
+    transform: scale(1.1);
   }
   .tags-group{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 2vh;
   }
 
   .tags-group > div {
-    flex: 35%;
+    flex: 15%;
   }
 
   .tags-icon {
@@ -107,3 +119,41 @@
     border: 1px #81b29a solid;
   }
 
+  .blogs{
+    margin-top: 4vh;
+    font-size:3vw;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .blog-link{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 4%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d405b;
+    width: 12vh;
+    height: 5vh;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    font-size:2.5vw;
+    background: url(https://s2.svgbox.net/pen-brushes.svg?ic=brush-8&color=ffffff);
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .blog-link:hover{
+    transform: scale(1.1);
+  }
+  .tags-group > a {
+    flex: 15%;
+  }
+
+  .contact{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1%;
+  }
