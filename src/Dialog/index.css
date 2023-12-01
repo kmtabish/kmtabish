@@ -32,11 +32,13 @@
     z-index: 1;
     color: white;
     width: 80%;
-    height: 70%;
+    height: 90vh;
     border-radius: 10px;
     opacity: 80%;
     box-shadow: 3px 3px 0px 3px #f2cc8f;
-    
+    @media only screen and (max-width: 600px) {
+      height: 60vh;
+    }
   }
 
   .title{
@@ -93,7 +95,7 @@
     align-items: center;
     justify-content: center;
     /* font-size: 2.5vw; */
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 5%;
   }
   .tags-text{
