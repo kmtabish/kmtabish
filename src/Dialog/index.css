@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Press+Start+2P&family=Rajdhani&display=swap');
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #E07A5F;
+  animation: change-color-anim 10s linear infinite;
+}
+
+
+@keyframes change-color-anim {
+  0%,100%{
+    background-color: #E07A5F;
+  }
+  25%{
+    background-color: #F2CC8F;
+  }
+  50%{
+    background-color: #81b29a;
+  }
+  50%{
+    background-color: #1d3557;
+  }
+  
+}
+
+.dialog{
+    background-color: #3d405b;
+    position: relative;
+    z-index: 1;
+    color: white;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    opacity: 80%;
+    box-shadow: 3px 3px 0px 3px #f2cc8f;
+    
+  }
+
+  .title{
+    margin-top: 20px;
+    margin: 20px, 20px, 20px, 20px;
+    font-size:5vw;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .sub-title{
+    margin-top: 3%;
+    font-size:3.5vw;
+    color: #3d405b;
+    font-family: 'Press Start 2P', cursive;
+      background: url(https://s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=ffffff);
+  }
+  
+  .tags{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%; 
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 20vh;
+    height: 5vh;
+    border-radius: 5px;
+  }
+  .tags-group{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .tags-group > div {
+    flex: 35%;
+  }
+
+  .tags-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 2.5vw; */
+    margin-right: 10px;
+    margin-left: 5%;
+  }
+  .tags-text{
+    /* font-size: 1.2vw; */
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    
+  }
+
+  .orange{
+    box-shadow: 3px 3px 0px 3px #f2cc8f;
+    border: 1px #f2cc8f solid;
+    /* background-color: #d08c60; */
+  }
+
+  .blue{
+    box-shadow: 3px 3px 0px 3px #0081a7;
+    border: 1px #0081a7 solid;
+  }
+
+  .green{
+    box-shadow: 3px 3px 0px 3px #81b29a;
+    border: 1px #81b29a solid;
+  }
+
