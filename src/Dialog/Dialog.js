@@ -20,9 +20,12 @@ function Dialog() {
       <animated.div className="title" style={{ ...title }}>
         Khan Mohammed Tabish
       </animated.div>
-      <animated.div className="sub-title" style={{ ...subTitle }}>
-        Undefined Programmer
-      </animated.div>
+      <div className="contact-group">
+        <animated.div className="sub-title" style={{ ...subTitle }}>
+          Undefined Programmer
+        </animated.div>
+      </div>
+
       <div className="tags-group">
         <div className="tags orange">
           <span className="tags-icon">
@@ -77,8 +80,8 @@ function Dialog() {
       </div>
 
       <div className="blogs">Connect with me</div>
-      <div className="tags-group">
-        <div className="blog-link">hi@kmtabish.com</div>
+      <div className="contact-group">
+        <div className="contact-link">hi@kmtabish.com</div>
       </div>
     </div>
   );
